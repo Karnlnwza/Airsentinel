@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #272727;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+p.description {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.legend {
+    background-color: #e9f0f4;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.legend ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 0 0 0;
+}
+
+.legend li {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.safe-color {
+    color: #1a5bbc; /* สีเขียวอมฟ้า */
+    border: 1px solid #1a5bbc;
+}
+
+.caution-color {
+    color: #9b59b6; /* สีม่วง */
+    border: 1px solid #9b59b6;
+}
+
+.danger-color {
+    color: #e74c3c; /* สีแดง */
+    border: 1px solid #e74c3c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4a69bd;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td ul {
+    margin: 5px 0 0 15px;
+    padding: 0;
+    list-style-type: disc;
+}
+
+td ul li {
+    margin-bottom: 5px;
+}
+
+.status-safe {
+    background-color: #e6f7f5; /* อ่อนกว่าสีฟ้าใน legend */
+    color: #16a08e;
+    font-weight: bold;
+}
+
+.status-caution {
+    background-color: #f3e6f9; /* อ่อนกว่าสีม่วงใน legend */
+    color: #8e44ad;
+    font-weight: bold;
+}
+
+.status-danger {
+    background-color: #fde8e6; /* อ่อนกว่าสีแดงใน legend */
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.note {
+    background-color: #f8f9fa;
+    border-left: 5px solid #ffc107;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.note h3 {
+    color: #e67e22;
+    margin-top: 0;
+}
+
+.note ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0;
+    color: #666;
+}
+
+.note ul li {
+    margin-bottom: 8px;
+}
